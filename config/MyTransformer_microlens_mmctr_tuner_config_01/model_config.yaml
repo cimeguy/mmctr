@@ -1,0 +1,480 @@
+MyTransformer_MicroLens_1M_x1_001_14a359f5:
+    accumulation_steps: 1
+    attention_dropout: 0.1
+    attention_hidden_activations: ReLU
+    attention_hidden_units: [512, 256]
+    attention_output_activation: null
+    batch_norm: true
+    batch_size: 8192
+    dataset_id: MicroLens_1M_x1
+    debug_mode: false
+    din_use_softmax: false
+    dnn_activations: ReLU
+    dnn_hidden_units: [1024, 512, 256]
+    early_stop_patience: 3
+    embedding_dim: 64
+    embedding_regularizer: 1.0e-06
+    epochs: 100
+    eval_steps: null
+    feature_config: null
+    feature_specs: null
+    group_id: user_id
+    learning_rate: 0.001
+    loss: binary_crossentropy
+    max_len: 64
+    metrics: [AUC, logloss]
+    model: MyTransformer
+    model_root: ./checkpoints/
+    monitor: AUC
+    monitor_mode: max
+    net_dropout: 0.1
+    net_regularizer: 0.01
+    num_workers: 3
+    optimizer: adam
+    pickle_feature_encoder: true
+    save_best_only: true
+    seed: 20242025
+    shuffle: true
+    task: binary_classification
+    use_features: null
+    verbose: 1
+MyTransformer_MicroLens_1M_x1_002_e53da03d:
+    accumulation_steps: 1
+    attention_dropout: 0.1
+    attention_hidden_activations: ReLU
+    attention_hidden_units: [512, 256]
+    attention_output_activation: null
+    batch_norm: true
+    batch_size: 8192
+    dataset_id: MicroLens_1M_x1
+    debug_mode: false
+    din_use_softmax: false
+    dnn_activations: ReLU
+    dnn_hidden_units: [1024, 512, 256]
+    early_stop_patience: 3
+    embedding_dim: 64
+    embedding_regularizer: 1.0e-06
+    epochs: 100
+    eval_steps: null
+    feature_config: null
+    feature_specs: null
+    group_id: user_id
+    learning_rate: 0.001
+    loss: binary_crossentropy
+    max_len: 64
+    metrics: [AUC, logloss]
+    model: MyTransformer
+    model_root: ./checkpoints/
+    monitor: AUC
+    monitor_mode: max
+    net_dropout: 0.1
+    net_regularizer: 0.005
+    num_workers: 3
+    optimizer: adam
+    pickle_feature_encoder: true
+    save_best_only: true
+    seed: 20242025
+    shuffle: true
+    task: binary_classification
+    use_features: null
+    verbose: 1
+MyTransformer_MicroLens_1M_x1_003_61bef03e:
+    accumulation_steps: 1
+    attention_dropout: 0.1
+    attention_hidden_activations: ReLU
+    attention_hidden_units: [512, 256]
+    attention_output_activation: null
+    batch_norm: true
+    batch_size: 8192
+    dataset_id: MicroLens_1M_x1
+    debug_mode: false
+    din_use_softmax: false
+    dnn_activations: ReLU
+    dnn_hidden_units: [1024, 512, 256]
+    early_stop_patience: 3
+    embedding_dim: 64
+    embedding_regularizer: 1.0e-06
+    epochs: 100
+    eval_steps: null
+    feature_config: null
+    feature_specs: null
+    group_id: user_id
+    learning_rate: 0.001
+    loss: binary_crossentropy
+    max_len: 64
+    metrics: [AUC, logloss]
+    model: MyTransformer
+    model_root: ./checkpoints/
+    monitor: AUC
+    monitor_mode: max
+    net_dropout: 0.1
+    net_regularizer: 0.001
+    num_workers: 3
+    optimizer: adam
+    pickle_feature_encoder: true
+    save_best_only: true
+    seed: 20242025
+    shuffle: true
+    task: binary_classification
+    use_features: null
+    verbose: 1
+MyTransformer_MicroLens_1M_x1_004_cf525245:
+    accumulation_steps: 1
+    attention_dropout: 0.1
+    attention_hidden_activations: ReLU
+    attention_hidden_units: [512, 256]
+    attention_output_activation: null
+    batch_norm: true
+    batch_size: 8192
+    dataset_id: MicroLens_1M_x1
+    debug_mode: false
+    din_use_softmax: false
+    dnn_activations: ReLU
+    dnn_hidden_units: [1024, 512, 256]
+    early_stop_patience: 3
+    embedding_dim: 64
+    embedding_regularizer: 1.0e-07
+    epochs: 100
+    eval_steps: null
+    feature_config: null
+    feature_specs: null
+    group_id: user_id
+    learning_rate: 0.001
+    loss: binary_crossentropy
+    max_len: 64
+    metrics: [AUC, logloss]
+    model: MyTransformer
+    model_root: ./checkpoints/
+    monitor: AUC
+    monitor_mode: max
+    net_dropout: 0.1
+    net_regularizer: 0.01
+    num_workers: 3
+    optimizer: adam
+    pickle_feature_encoder: true
+    save_best_only: true
+    seed: 20242025
+    shuffle: true
+    task: binary_classification
+    use_features: null
+    verbose: 1
+MyTransformer_MicroLens_1M_x1_005_79d2dca2:
+    accumulation_steps: 1
+    attention_dropout: 0.1
+    attention_hidden_activations: ReLU
+    attention_hidden_units: [512, 256]
+    attention_output_activation: null
+    batch_norm: true
+    batch_size: 8192
+    dataset_id: MicroLens_1M_x1
+    debug_mode: false
+    din_use_softmax: false
+    dnn_activations: ReLU
+    dnn_hidden_units: [1024, 512, 256]
+    early_stop_patience: 3
+    embedding_dim: 64
+    embedding_regularizer: 1.0e-07
+    epochs: 100
+    eval_steps: null
+    feature_config: null
+    feature_specs: null
+    group_id: user_id
+    learning_rate: 0.001
+    loss: binary_crossentropy
+    max_len: 64
+    metrics: [AUC, logloss]
+    model: MyTransformer
+    model_root: ./checkpoints/
+    monitor: AUC
+    monitor_mode: max
+    net_dropout: 0.1
+    net_regularizer: 0.005
+    num_workers: 3
+    optimizer: adam
+    pickle_feature_encoder: true
+    save_best_only: true
+    seed: 20242025
+    shuffle: true
+    task: binary_classification
+    use_features: null
+    verbose: 1
+MyTransformer_MicroLens_1M_x1_006_029fa1c9:
+    accumulation_steps: 1
+    attention_dropout: 0.1
+    attention_hidden_activations: ReLU
+    attention_hidden_units: [512, 256]
+    attention_output_activation: null
+    batch_norm: true
+    batch_size: 8192
+    dataset_id: MicroLens_1M_x1
+    debug_mode: false
+    din_use_softmax: false
+    dnn_activations: ReLU
+    dnn_hidden_units: [1024, 512, 256]
+    early_stop_patience: 3
+    embedding_dim: 64
+    embedding_regularizer: 1.0e-07
+    epochs: 100
+    eval_steps: null
+    feature_config: null
+    feature_specs: null
+    group_id: user_id
+    learning_rate: 0.001
+    loss: binary_crossentropy
+    max_len: 64
+    metrics: [AUC, logloss]
+    model: MyTransformer
+    model_root: ./checkpoints/
+    monitor: AUC
+    monitor_mode: max
+    net_dropout: 0.1
+    net_regularizer: 0.001
+    num_workers: 3
+    optimizer: adam
+    pickle_feature_encoder: true
+    save_best_only: true
+    seed: 20242025
+    shuffle: true
+    task: binary_classification
+    use_features: null
+    verbose: 1
+MyTransformer_MicroLens_1M_x1_007_61bef03e:
+    accumulation_steps: 1
+    attention_dropout: 0.1
+    attention_hidden_activations: ReLU
+    attention_hidden_units: [512, 256]
+    attention_output_activation: null
+    batch_norm: true
+    batch_size: 8192
+    dataset_id: MicroLens_1M_x1
+    debug_mode: false
+    din_use_softmax: false
+    dnn_activations: ReLU
+    dnn_hidden_units: [1024, 512, 256]
+    early_stop_patience: 3
+    embedding_dim: 64
+    embedding_regularizer: 1.0e-06
+    epochs: 100
+    eval_steps: null
+    feature_config: null
+    feature_specs: null
+    group_id: user_id
+    learning_rate: 0.0001
+    loss: binary_crossentropy
+    max_len: 64
+    metrics: [AUC, logloss]
+    model: MyTransformer
+    model_root: ./checkpoints/
+    monitor: AUC
+    monitor_mode: max
+    net_dropout: 0.1
+    net_regularizer: 0.01
+    num_workers: 3
+    optimizer: adam
+    pickle_feature_encoder: true
+    save_best_only: true
+    seed: 20242025
+    shuffle: true
+    task: binary_classification
+    use_features: null
+    verbose: 1
+MyTransformer_MicroLens_1M_x1_008_bf414cfd:
+    accumulation_steps: 1
+    attention_dropout: 0.1
+    attention_hidden_activations: ReLU
+    attention_hidden_units: [512, 256]
+    attention_output_activation: null
+    batch_norm: true
+    batch_size: 8192
+    dataset_id: MicroLens_1M_x1
+    debug_mode: false
+    din_use_softmax: false
+    dnn_activations: ReLU
+    dnn_hidden_units: [1024, 512, 256]
+    early_stop_patience: 3
+    embedding_dim: 64
+    embedding_regularizer: 1.0e-06
+    epochs: 100
+    eval_steps: null
+    feature_config: null
+    feature_specs: null
+    group_id: user_id
+    learning_rate: 0.0001
+    loss: binary_crossentropy
+    max_len: 64
+    metrics: [AUC, logloss]
+    model: MyTransformer
+    model_root: ./checkpoints/
+    monitor: AUC
+    monitor_mode: max
+    net_dropout: 0.1
+    net_regularizer: 0.005
+    num_workers: 3
+    optimizer: adam
+    pickle_feature_encoder: true
+    save_best_only: true
+    seed: 20242025
+    shuffle: true
+    task: binary_classification
+    use_features: null
+    verbose: 1
+MyTransformer_MicroLens_1M_x1_009_55742a0d:
+    accumulation_steps: 1
+    attention_dropout: 0.1
+    attention_hidden_activations: ReLU
+    attention_hidden_units: [512, 256]
+    attention_output_activation: null
+    batch_norm: true
+    batch_size: 8192
+    dataset_id: MicroLens_1M_x1
+    debug_mode: false
+    din_use_softmax: false
+    dnn_activations: ReLU
+    dnn_hidden_units: [1024, 512, 256]
+    early_stop_patience: 3
+    embedding_dim: 64
+    embedding_regularizer: 1.0e-06
+    epochs: 100
+    eval_steps: null
+    feature_config: null
+    feature_specs: null
+    group_id: user_id
+    learning_rate: 0.0001
+    loss: binary_crossentropy
+    max_len: 64
+    metrics: [AUC, logloss]
+    model: MyTransformer
+    model_root: ./checkpoints/
+    monitor: AUC
+    monitor_mode: max
+    net_dropout: 0.1
+    net_regularizer: 0.001
+    num_workers: 3
+    optimizer: adam
+    pickle_feature_encoder: true
+    save_best_only: true
+    seed: 20242025
+    shuffle: true
+    task: binary_classification
+    use_features: null
+    verbose: 1
+MyTransformer_MicroLens_1M_x1_010_029fa1c9:
+    accumulation_steps: 1
+    attention_dropout: 0.1
+    attention_hidden_activations: ReLU
+    attention_hidden_units: [512, 256]
+    attention_output_activation: null
+    batch_norm: true
+    batch_size: 8192
+    dataset_id: MicroLens_1M_x1
+    debug_mode: false
+    din_use_softmax: false
+    dnn_activations: ReLU
+    dnn_hidden_units: [1024, 512, 256]
+    early_stop_patience: 3
+    embedding_dim: 64
+    embedding_regularizer: 1.0e-07
+    epochs: 100
+    eval_steps: null
+    feature_config: null
+    feature_specs: null
+    group_id: user_id
+    learning_rate: 0.0001
+    loss: binary_crossentropy
+    max_len: 64
+    metrics: [AUC, logloss]
+    model: MyTransformer
+    model_root: ./checkpoints/
+    monitor: AUC
+    monitor_mode: max
+    net_dropout: 0.1
+    net_regularizer: 0.01
+    num_workers: 3
+    optimizer: adam
+    pickle_feature_encoder: true
+    save_best_only: true
+    seed: 20242025
+    shuffle: true
+    task: binary_classification
+    use_features: null
+    verbose: 1
+MyTransformer_MicroLens_1M_x1_011_96fe168c:
+    accumulation_steps: 1
+    attention_dropout: 0.1
+    attention_hidden_activations: ReLU
+    attention_hidden_units: [512, 256]
+    attention_output_activation: null
+    batch_norm: true
+    batch_size: 8192
+    dataset_id: MicroLens_1M_x1
+    debug_mode: false
+    din_use_softmax: false
+    dnn_activations: ReLU
+    dnn_hidden_units: [1024, 512, 256]
+    early_stop_patience: 3
+    embedding_dim: 64
+    embedding_regularizer: 1.0e-07
+    epochs: 100
+    eval_steps: null
+    feature_config: null
+    feature_specs: null
+    group_id: user_id
+    learning_rate: 0.0001
+    loss: binary_crossentropy
+    max_len: 64
+    metrics: [AUC, logloss]
+    model: MyTransformer
+    model_root: ./checkpoints/
+    monitor: AUC
+    monitor_mode: max
+    net_dropout: 0.1
+    net_regularizer: 0.005
+    num_workers: 3
+    optimizer: adam
+    pickle_feature_encoder: true
+    save_best_only: true
+    seed: 20242025
+    shuffle: true
+    task: binary_classification
+    use_features: null
+    verbose: 1
+MyTransformer_MicroLens_1M_x1_012_01fedd2d:
+    accumulation_steps: 1
+    attention_dropout: 0.1
+    attention_hidden_activations: ReLU
+    attention_hidden_units: [512, 256]
+    attention_output_activation: null
+    batch_norm: true
+    batch_size: 8192
+    dataset_id: MicroLens_1M_x1
+    debug_mode: false
+    din_use_softmax: false
+    dnn_activations: ReLU
+    dnn_hidden_units: [1024, 512, 256]
+    early_stop_patience: 3
+    embedding_dim: 64
+    embedding_regularizer: 1.0e-07
+    epochs: 100
+    eval_steps: null
+    feature_config: null
+    feature_specs: null
+    group_id: user_id
+    learning_rate: 0.0001
+    loss: binary_crossentropy
+    max_len: 64
+    metrics: [AUC, logloss]
+    model: MyTransformer
+    model_root: ./checkpoints/
+    monitor: AUC
+    monitor_mode: max
+    net_dropout: 0.1
+    net_regularizer: 0.001
+    num_workers: 3
+    optimizer: adam
+    pickle_feature_encoder: true
+    save_best_only: true
+    seed: 20242025
+    shuffle: true
+    task: binary_classification
+    use_features: null
+    verbose: 1

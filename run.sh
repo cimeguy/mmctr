@@ -1,0 +1,1 @@
+python run_param_tuner.py --config config/DIN_microlens_mmctr_tuner_config_01.yaml --gpu 0
