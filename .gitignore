@@ -3,7 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-data/MicroLens_1M_x1/item_info.parquet
+# data/MicroLens_1M_x1/item_info.parquet
 data/MicroLens_1M_x1/combined.parquet
 data/MicroLens_1M_x1/train.parquet
 data/item_emb.parquet
